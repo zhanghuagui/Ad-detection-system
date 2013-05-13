@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1321717978 source:/home/imc/Ad-detection-system/main.cpp
+	"cpp/hpp/FMPI.h"
+	"cpp/hpp/baseDataStructure.h"
+	"cpp/hpp/databaseOperation.h"
+	"cpp/hpp/inputByVideo.h"
+	"cpp/hpp/rConfigFile.h"
+	"cpp/hpp/videoCopyDetection.h"
+	"cpp/hpp/videoShotCut.h"
+	"cpp/hpp/videoSuspectDetection.h"
+	"cpp/hpp/fileOperation.h"
+	"cpp/hpp/xml.h"
+	"cpp/hpp/date.h"
+	<iostream>
+
+1316609465 source:/home/imc/Ad-detection-system/cpp/FMPI.cpp
+	"hpp/FMPI.h"
+
+1312955078 /home/imc/Ad-detection-system/cpp/hpp/FMPI.h
+	<highgui.h>
+	<cv.h>
+	<vector>
+	<iostream>
+	<stdio.h>
+	<fstream>
+	"baseDataStructure.h"
+	"cvGabor.h"
+
+1321717835 /home/imc/Ad-detection-system/cpp/hpp/baseDataStructure.h
+	<vector>
+	<string>
+	<highgui.h>
+	<cv.h>
+
+1312955381 /home/imc/Ad-detection-system/cpp/hpp/cvGabor.h
+	<highgui.h>
+	<cv.h>
+	<math.h>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+	<stdio.h>
+	"baseDataStructure.h"
+
+1316609465 source:/home/imc/Ad-detection-system/cpp/cvGabor.cpp
+	"hpp/cvGabor.h"
+
+1314065724 source:/home/imc/Ad-detection-system/cpp/databaseOperation.cpp
+	"hpp/databaseOperation.h"
+
+1314014781 /home/imc/Ad-detection-system/cpp/hpp/databaseOperation.h
+	"baseDataStructure.h"
+	<string>
+	<vector>
+	<mysql.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+
+1321708757 source:/home/imc/Ad-detection-system/cpp/fileOperation.cpp
+	"hpp/fileOperation.h"
+
+1312957351 /home/imc/Ad-detection-system/cpp/hpp/fileOperation.h
+	"baseDataStructure.h"
+	<iostream>
+	<vector>
+	<string>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+
+1312903781 source:/home/imc/Ad-detection-system/cpp/inputByUDP.cpp
+	"hpp/inputByUDP.h"
+
+1312899051 /home/imc/Ad-detection-system/cpp/hpp/inputByUDP.h
+	"baseDataStructure.h"
+
+1321680220 source:/home/imc/Ad-detection-system/cpp/inputByVideo.cpp
+	"hpp/inputByVideo.h"
+
+1314101140 /home/imc/Ad-detection-system/cpp/hpp/inputByVideo.h
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavutil/avutil.h>
+	<libswscale/swscale.h>
+	"baseDataStructure.h"
+	<stdio.h>
+	<vector>
+	<string>
+	<iostream>
+
+1312951443 source:/home/imc/Ad-detection-system/cpp/svm.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<float.h>
+	<string.h>
+	<stdarg.h>
+	"hpp/svm.h"
+
+1312288035 /home/imc/Ad-detection-system/cpp/hpp/svm.h
+
+1318697779 source:/home/imc/Ad-detection-system/cpp/videoCopyDetection.cpp
+	"hpp/videoCopyDetection.h"
+
+1318608530 /home/imc/Ad-detection-system/cpp/hpp/videoCopyDetection.h
+	"baseDataStructure.h"
+	<vector>
+	<string>
+	<highgui.h>
+	<cv.h>
+
+1314626272 source:/home/imc/Ad-detection-system/cpp/videoShotCut.cpp
+	"hpp/videoShotCut.h"
+
+1312962502 /home/imc/Ad-detection-system/cpp/hpp/videoShotCut.h
+	"baseDataStructure.h"
+	<highgui.h>
+	<cv.h>
+	<string>
+	<vector>
+	<stdio.h>
+	<iostream>
+
+1314186159 source:/home/imc/Ad-detection-system/cpp/videoSuspectDetection.cpp
+	"hpp/videoSuspectDetection.h"
+
+1312953022 /home/imc/Ad-detection-system/cpp/hpp/videoSuspectDetection.h
+	<highgui.h>
+	<cv.h>
+	<vector>
+	<string>
+	<stdio.h>
+	<iostream>
+	"baseDataStructure.h"
+	"svm.h"
+
+1312215969 /home/imc/Ad-detection-system/cpp/hpp/rConfigFile.h
+	<map>
+	<string>
+	<vector>
+	<algorithm>
+	<functional>
+	<fstream>
+
+1321717904 source:/home/imc/Ad-detection-system/cpp/date.cpp
+	"hpp/date.h"
+
+1317196990 /home/imc/Ad-detection-system/cpp/hpp/date.h
+	<ctype.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+
+1321717921 source:/home/imc/Ad-detection-system/cpp/tinystr.cpp
+	"hpp/tinystr.h"
+
+1137395526 /home/imc/Ad-detection-system/cpp/hpp/tinystr.h
+	<assert.h>
+	<string.h>
+
+1321717932 source:/home/imc/Ad-detection-system/cpp/tinyxml.cpp
+	<ctype.h>
+	"hpp/tinyxml.h"
+	<sstream>
+	<iostream>
+
+1137395526 /home/imc/Ad-detection-system/cpp/hpp/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1321717941 source:/home/imc/Ad-detection-system/cpp/tinyxmlerror.cpp
+	"hpp/tinyxml.h"
+
+1321717947 source:/home/imc/Ad-detection-system/cpp/tinyxmlparser.cpp
+	"hpp/tinyxml.h"
+	<ctype.h>
+	<stddef.h>
+	<windows.h>
+
+1321717964 source:/home/imc/Ad-detection-system/cpp/xml.cpp
+	"hpp/xml.h"
+
+1317210036 /home/imc/Ad-detection-system/cpp/hpp/xml.h
+	<iostream>
+	<string>
+	"tinystr.h"
+	"tinyxml.h"
+	<vector>
+

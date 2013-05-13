@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ad-detection-system" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ad-detection-system" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ad-detection-system" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cpp/FMPI.cpp" />
+		<Unit filename="cpp/cvGabor.cpp" />
+		<Unit filename="cpp/databaseOperation.cpp" />
+		<Unit filename="cpp/date.cpp" />
+		<Unit filename="cpp/fileOperation.cpp" />
+		<Unit filename="cpp/hpp/FMPI.h" />
+		<Unit filename="cpp/hpp/baseDataStructure.h" />
+		<Unit filename="cpp/hpp/cvGabor.h" />
+		<Unit filename="cpp/hpp/databaseOperation.h" />
+		<Unit filename="cpp/hpp/date.h" />
+		<Unit filename="cpp/hpp/fileOperation.h" />
+		<Unit filename="cpp/hpp/inputByUDP.h" />
+		<Unit filename="cpp/hpp/inputByVideo.h" />
+		<Unit filename="cpp/hpp/rConfigFile.h" />
+		<Unit filename="cpp/hpp/svm.h" />
+		<Unit filename="cpp/hpp/timeDomainModeling.h" />
+		<Unit filename="cpp/hpp/tinystr.h" />
+		<Unit filename="cpp/hpp/tinyxml.h" />
+		<Unit filename="cpp/hpp/videoCopyDetection.h" />
+		<Unit filename="cpp/hpp/videoShotCut.h" />
+		<Unit filename="cpp/hpp/videoSuspectDetection.h" />
+		<Unit filename="cpp/hpp/xml.h" />
+		<Unit filename="cpp/inputByUDP.cpp" />
+		<Unit filename="cpp/inputByVideo.cpp" />
+		<Unit filename="cpp/svm.cpp" />
+		<Unit filename="cpp/timeDomainModeling.cpp" />
+		<Unit filename="cpp/tinystr.cpp" />
+		<Unit filename="cpp/tinyxml.cpp" />
+		<Unit filename="cpp/tinyxmlerror.cpp" />
+		<Unit filename="cpp/tinyxmlparser.cpp" />
+		<Unit filename="cpp/videoCopyDetection.cpp" />
+		<Unit filename="cpp/videoShotCut.cpp" />
+		<Unit filename="cpp/videoSuspectDetection.cpp" />
+		<Unit filename="cpp/xml.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
